@@ -1,4 +1,4 @@
-﻿name: Test Pipe
+name: Test Pipe
 on: push
 jobs:
   build:
@@ -18,4 +18,4 @@ jobs:
       - name: Aguarde (janela para evidencia)
         run: sleep 15
       - name: Run the tests
-        run: npm test -- --coverage
+        run: npm test
